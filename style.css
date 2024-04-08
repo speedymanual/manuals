@@ -1,0 +1,239 @@
+body 
+{
+    margin:0px;
+	padding:0px;
+	background-color:whitesmoke;
+	font-family:'Open Sans Condensed';
+	color:black;
+}
+
+h1
+{
+    text-align:center;
+	font-size:40px;
+	font-weight:100;
+	line-height:1em;
+	margin-bottom:0px;
+}
+
+h2
+{
+    text-align:center;
+	font-size:18px;
+	font-weight:100;
+	line-height:1em;
+	margin-top:3px;
+}
+
+h3
+{
+	font-size:16px;	
+	font-weight:800;
+	line-height:1em;	
+	margin-bottom:0px;
+}
+
+h4
+{
+	font-size:16px;	
+	font-weight:400;
+	text-align:center;
+}
+
+h6
+{
+	font-size:xx-small;
+	font-weight:normal;
+	color:gray;
+}
+
+table.tblindexlinks
+{
+	margin-left:auto;
+    margin-right:auto;
+	background-color:whitesmoke;
+	border-collapse:separate;
+	border-spacing:5px;
+}
+
+table.tblfilter
+{
+	margin-left:auto;
+    margin-right:auto;
+	background-color:whitesmoke;
+	border-collapse:separate;
+	border-spacing:5px;
+}
+
+table.tblmodeloverview
+{
+	margin-left:auto;
+    margin-right:auto;
+	padding:0px;
+	width:95%;
+	max-width:700px;
+}
+
+table.tblmanualcontainer
+{
+	margin-left:auto;
+    margin-right:auto;
+	padding:0px;
+	width:90%;
+	max-width:700px;
+}
+
+table.tblmanualitem
+{
+	padding:0px;
+	background-color:white;
+	border-color:black;
+	border-width:1px;
+	border-style:solid;
+}
+
+td.indexlinkheader
+{
+	background-color:whitesmoke;
+	vertical-align:bottom;
+	min-width:300px;
+}
+
+td.indexlinkitems
+{
+	height:45px;
+    font-size:18px;
+	font-weight:400;
+	text-align:center;
+	border-color:black;
+	border-width:1px;
+	border-style:solid;
+	background-color:white;
+}
+
+td.indexlinkitems:hover
+{
+	cursor:pointer;
+}
+
+td.filterbutton
+{
+	text-align:center;
+	background-color:whitesmoke;
+}
+
+td.manualheader
+{
+    font-size:18px;	
+	font-weight:800;
+}
+
+td.manualdetail
+{
+    font-size:16px;	
+	font-weight:400;	
+}
+
+.button
+{
+	font-family:'Open Sans Condensed';
+	font-size:14px;	
+	font-weight:400;
+	text-align:center;
+	border-color:black;
+	border-width:1px;
+	border-style:solid;
+	min-width:75px;
+	min-height:40px;
+	background-color:white;
+}
+
+a:hover,a:visited 
+{ 
+	color:black;
+}
+
+.button:hover
+{
+	cursor:pointer;
+}
+
+img.imgthumb<html lang="en">
+{
+    max-width:100%;
+}
+
+img.imgbuynow
+{
+	max-width:90px;
+	max-height:33px;
+}
+
+div.divthumb
+{
+	width:100px;
+	height:90px;
+	margin:0px;
+}
+
+p.homebutton
+{
+	text-align:center;
+}
+
+@media (min-width: 600px) 
+{	
+	h1
+	{
+		font-size:60px;
+	}
+	
+	h2
+	{
+		font-size:34px;
+	}
+	
+	h3
+	{
+		font-size:22px;	
+	}
+
+	h4
+	{
+		font-size:22px;	
+	}
+	
+	table.tblmanualcontainer
+	{
+		
+	}
+	
+	table.tblmanualitem
+	{
+		min-width:700px;
+	}
+	
+	td.indexlinkheader
+	{
+		font-size:22px;	
+		min-width:350px;
+	}
+	
+	td.indexlinkitems
+	{
+		line-height:2.5em;
+		padding:1px;
+		min-width:350px;
+	}
+	
+	td.manualheader
+	{
+		font-size:22px;	
+		color:black;
+	}
+	
+	.button
+	{
+		font-size:18px;	
+	}
+}
